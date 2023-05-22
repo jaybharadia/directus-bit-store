@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "directus": "^10",
+    "directus-extension-currency-interface": "^1.1.1",
     "mysql": "^2.18.1"
   }
 }
