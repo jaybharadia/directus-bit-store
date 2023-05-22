@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directus": "9.23",
-    "directus-extension-currency-interface": "^1.1.1",
+    "directus": "^10",
     "mysql": "^2.18.1"
   }
 }
