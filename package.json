@@ -1,16 +1,17 @@
 {
-  "name": "bit-store",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "directus": "^10",
-    "directus-extension-currency-interface": "^1.1.1",
-    "mysql": "^2.18.1"
-  }
+    "name": "bit-store",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "directus start"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "directus": "^10.1.0",
+        "directus-extension-currency-interface": "^1.1.1",
+        "mysql": "^2.18.1"
+    }
 }
