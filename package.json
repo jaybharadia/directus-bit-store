@@ -13,6 +13,6 @@
         "directus": "^10.3.0",
         "directus-extension-currency-interface": "^1.1.1",
         "directus-extension-filepreview-interface-custom": "^1.0.8",
-        "mysql": "^2.18.1"
+        "mysql": "^3.3.5"
     }
 }
