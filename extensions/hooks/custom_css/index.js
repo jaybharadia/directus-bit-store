@@ -1,9 +1,8 @@
-"use strict";
-
 const path = require("path");
+const fs = require("fs");
+const style = fs.readFileSync(path.join(__dirname, "style.css"));
+const appJs = fs.readFileSync(path.join(__dirname, "app.js"));
 
-const stylePath = path.resolve(__dirname, "../../../public/custom-hook.css");
-console.log("🚀 ~ file: index.js:6 ~ stylePath:", stylePath);
 var index = ({ embed, init, action }) => {
     // filter('items.create', () => {
     // 	console.log('Creating Item!');
@@ -20,13 +19,15 @@ var index = ({ embed, init, action }) => {
     // );
 
     embed("body", () => {
+        console.log("inside Hook Body js injection *******");
         // setTimeout(() => {
         //     console.log("timer expired ******");
 
         //     return `<script src="/admin/public/js/index.js" ></script>`;
         // }, 5000);
 
-        return `<script src="/admin/public/js/index.js" ></script>`;
+        // return `<script src="/admin/public/js/index.js" ></script>`;
+        return `<style>${style}</style><script>${appJs}</script>`;
     });
 
     // init("routes.after", ({ app }) => {

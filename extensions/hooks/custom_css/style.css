@@ -1,0 +1,29 @@
+body{
+    border:5px solid red;
+}
+
+/* :root {
+    --primary-alt: #F0ECFF !important;
+    --primary-10: #FDF5CE !important;
+    --primary-25: #FCE99E !important;
+    --primary-50: #F6D76D !important;
+    --primary-75: #EDC348 !important;
+    --primary-90: #E2A711 !important;
+  
+    --primary: #E2A711 !important;
+  
+    --primary-110: #C2890C !important;
+    --primary-125: #A26E08 !important;
+    --primary-150: #835405 !important;
+    --primary-175: #835405 !important;
+    --primary-190: #6C4203 !important;
+  
+    --v-button-background-color: #E2A711 !important;
+    --v-button-background-color-hover: #FDF5CE !important;
+    --sidebar-detail-color-active: #99F4FE !important;
+  }*/
+
+  .module-bar .v-button .button{
+    color : red !important;
+  }
+  
