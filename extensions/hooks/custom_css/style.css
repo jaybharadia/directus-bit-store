@@ -26,4 +26,7 @@ body{
   .module-bar .v-button .button{
     color : red !important;
   }
+
+  /* HIde Import / export from sidebar  */
+  #sidebar .v-item-group.sidebar-detail-group > div:last-child {display: none;}
   
