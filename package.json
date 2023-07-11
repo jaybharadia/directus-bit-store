@@ -11,6 +11,7 @@
     "license": "ISC",
     "dependencies": {
         "directus": "^10.3.0",
+        "directus-extension-computed-interface": "^1.8.0",
         "directus-extension-currency-interface": "^1.1.1",
         "directus-extension-filepreview-interface-custom": "^1.0.8",
         "mysql": "^2.18.1"
